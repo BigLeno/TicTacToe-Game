@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang=""pt-br>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um simples Jogo da Velha">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <div class="table">
+            <table id="board">
+                <tr>
+                    <td id="cell-0"></td>
+                    <td id="cell-1"></td>
+                    <td id="cell-2"></td>
+                </tr>
+                <tr>
+                    <td id="cell-3"></td>
+                    <td id="cell-4"></td>
+                    <td id="cell-5"></td>
+                </tr>
+                <tr>
+                    <td id="cell-6"></td>
+                    <td id="cell-7"></td>
+                    <td id="cell-8"></td>
+                </tr>
+            </table>
+            <div id="return"></div>
+            <button id="restart-button">Restart</button>
+        </div>
+
+        <div id="scores">
+            <div class="content">
+              X wins: <span id="cross-wins">0</span>
+            </div>
+            <div class="content">
+              O wins: <span id="circle-wins">0</span>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
